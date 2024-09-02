@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by resource.rc
+//
+#define HIDC_SOUND                      0x806503ee    // IDD_SETUPDLG

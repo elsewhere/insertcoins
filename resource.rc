@@ -1,0 +1,136 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUPDLG DIALOGEX 0, 0, 231, 147
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Insert Coin(s)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Demo",IDOK,11,120,98,14,BS_FLAT
+    PUSHBUTTON      "Die",IDCANCEL,115,120,104,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,5,1,222,142,BS_FLAT
+    CONTROL         103,IDC_FRAME,"Static",SS_BITMAP | SS_SUNKEN,10,10,211,
+                    63
+    GROUPBOX        "",IDC_STATIC,10,72,210,21,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,10,93,210,21,BS_FLAT
+    CONTROL         "1280*1024",IDC_1280,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,15,80,50,8
+    CONTROL         "1024*768",IDC_1024,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,65,80,50,8
+    CONTROL         "800*600",IDC_800,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    115,80,50,8
+    CONTROL         "640*480",IDC_640,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    165,80,50,8
+    CONTROL         "Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,15,100,50,9
+    CONTROL         "Sound",IDC_SOUND,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,65,100,36,9,0,HIDC_SOUND
+    CONTROL         "V. Retrace",IDC_VSYNC,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,115,100,50,9
+    CONTROL         "Dummy",IDC_DUMMY,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,165,100,50,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SETUPDLG, DIALOG
+    BEGIN
+        VERTGUIDE, 5
+        VERTGUIDE, 10
+        VERTGUIDE, 15
+        VERTGUIDE, 65
+        VERTGUIDE, 165
+        VERTGUIDE, 220
+        VERTGUIDE, 225
+        HORZGUIDE, 10
+        HORZGUIDE, 88
+        HORZGUIDE, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "logo.bmp"
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
